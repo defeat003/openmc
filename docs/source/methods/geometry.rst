@@ -926,7 +926,7 @@ expressed as follows,
     f(\mu, \phi) d\mu d\phi = \frac{\mu}{\pi} d\mu d\phi = 2\mu d\mu \frac{d\phi}{2\pi}
 
 where :math:`\mu = \cos \theta` is the cosine of the polar angle between
-reflected direction and the normal to the surface; and :math:`\theta` is the
+reflected direction and the normal to the surface; and :math:`\phi` is the
 azimuthal angle in :math:`[0,2\pi]`. We can separate the multivariate
 probability density into two separate univariate density functions, one for
 the cosine of the polar angle,
@@ -944,7 +944,7 @@ and one for the azimuthal angle,
     f(\phi) = \frac{1}{2\pi}.
 
 Each of these density functions can be sampled by analytical inversion of the
-cumulative distribution distribution, resulting in the following sampling
+cumulative distribution, resulting in the following sampling
 scheme:
 
 .. math::
